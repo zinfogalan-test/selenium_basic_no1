@@ -18,7 +18,8 @@ public class Opening_webpage_1 {
 		WebElement searchbox= driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div/div/div/div/div/div[1]/div/div/header/div[1]/div[2]/form/div/div/input"));
 		searchbox.sendKeys("car toy under 4000",Keys.ENTER);
 		
-		
+		WebElement Clickbutton =driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div[1]/div[2]/div[1]/div/div/div[2]/div[2]"));
+		Clickbutton.click();
 		
 
 		
