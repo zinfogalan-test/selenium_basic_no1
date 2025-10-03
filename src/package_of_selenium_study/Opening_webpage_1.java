@@ -18,8 +18,11 @@ public class Opening_webpage_1 {
 		WebElement searchbox= driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div/div/div/div/div/div[1]/div/div/header/div[1]/div[2]/form/div/div/input"));
 		searchbox.sendKeys("car toy under 4000",Keys.ENTER);
 		
-	    driver.close();
+		
+		
+
 		
 	}
 
 }
+//C:\Users\User\eclipse-workspace
